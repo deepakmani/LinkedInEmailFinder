@@ -161,6 +161,20 @@ $(document).ready(function() {
 }); // Document.ready
  
 
+// Name: create_email_permutations
+// Descr: Return an array with all the permutations for email id
+
+function create_email_permutations()
+{
+	var first_name = "";
+	var last_name  = " ";
+	var middle_initial = "";
+
+	email_permutations_array.push(first_name + "." + last_name + "@" + domain);
+
+	return email_permutations_array; 
+}
+
 // Name: asyncLoop 
 // Descr: Needed for executing each permutation in the email array
 //        after rapportive returns

@@ -24,7 +24,7 @@
                         "persistent": false
 	              },	
   "content_scripts": [ {
-    "js": [ "jquery-2.1.1.min.js", "content.js",  "jQuery.DOMNodeAppear/jquery.domnodeappear.js"],
+    "js": [ "jquery-2.1.1.min.js", "content.js"],
     "matches": [ "http://localhost:4000/*", "https://*/*"]
   }],
   "options_page": "options.html",
