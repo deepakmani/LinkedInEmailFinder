@@ -7,7 +7,7 @@
 
   "browser_action": {
     "name": "Manipulate DOM",
-    "default_icon": "lance_mate.png",
+    "default_icon": "email_check.png",
     "default_popup": "popup.html",
     "default_title": "Visit LinkedIn and use Rapportive to find email IDs"
   },
