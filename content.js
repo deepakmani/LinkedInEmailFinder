@@ -205,6 +205,14 @@ function create_email_permutations(rapportive_user_lookup)
 	email_permutations_array.push(last_name + first_initial + "@" + domain);
 	email_permutations_array.push(last_initial + first_name + "@" + domain);
 	email_permutations_array.push(last_initial + "." + first_name + "@" + domain);
+	email_permutations_array.push(first_name + "_" + last_name + "@" + domain);
+	email_permutations_array.push(first_name + "_" + last_initial + "@" + domain);
+	email_permutations_array.push(first_initial + "_" + last_name + "@" + domain);
+	email_permutations_array.push(last_name + "_" + first_name + "@" + domain);
+	email_permutations_array.push(last_name + "_" + first_initial + "@" + domain);
+	email_permutations_array.push(last_initial + "_" + first_name + "@" + domain);
+
+
 
 	return email_permutations_array; 
 }

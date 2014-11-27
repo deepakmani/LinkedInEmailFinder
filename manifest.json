@@ -11,7 +11,11 @@
     "default_popup": "popup.html",
     "default_title": "Visit LinkedIn and use Rapportive to find email IDs"
   },
-  
+   "icons": { 
+            "16": "email_check.png",
+            "48": "email_check.png",
+            "128": "email_check.png" 
+          },
   "permissions": [
                    "storage",
                    "tabs",
